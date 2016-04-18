@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--This is a testdoc-->
+<Root>
+    <OperEventNode OperType="Insert">
+        <tbName>tbProPara</tbName>
+        <id>123</id>
+    </OperEventNode>
+    <OperEventNode>UPDATE</OperEventNode>
+</Root>

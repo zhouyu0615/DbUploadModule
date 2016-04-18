@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312" standalone="no" ?>
+<!--File created at 2016-04-18 14:46:14-->
+<root>
+    <OperEventNode>
+        <InfoNode>
+            <tbName>tbProcessPara</tbName>
+            <Id>1126</Id>
+            <ProductionLineId>1</ProductionLineId>
+            <ProcessModuleId>1000</ProcessModuleId>
+            <CreatedDateTime>2016-04-14 11:31:03</CreatedDateTime>
+            <LastUpdatedDateTime>2016-04-14 11:31:03</LastUpdatedDateTime>
+            <ProductionLineName>全自动茶叶生产示范生产线</ProductionLineName>
+            <ProcessModuleName>摊青机模块</ProcessModuleName>
+            <m_strPlcName>本地模拟器</m_strPlcName>
+            <ParaValue>0</ParaValue>
+            <SetValue>-1.07374e+008</SetValue>
+            <ParaName>本地模拟器测试2</ParaName>
+            <IsConfig>1</IsConfig>
+            <IsRecord>0</IsRecord>
+            <IsVisible>1</IsVisible>
+            <PlcId>1012</PlcId>
+            <ReadAddrIndex>2</ReadAddrIndex>
+            <AddressType>MW</AddressType>
+            <WriteAddrIndex>3</WriteAddrIndex>
+            <Unit></Unit>
+        </InfoNode>
+    </OperEventNode>
+</root>

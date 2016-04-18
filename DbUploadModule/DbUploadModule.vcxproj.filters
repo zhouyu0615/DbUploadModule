@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\UI_Dialog">
+      <UniqueIdentifier>{8e296086-b9a0-46ff-b52c-8d0d75d03b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI_Dialog">
+      <UniqueIdentifier>{af18fd19-305d-4d49-856a-dce268467c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tbFiles">
+      <UniqueIdentifier>{ece5ac88-fa6b-4a84-b08c-df5a328e3837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tbFiles">
+      <UniqueIdentifier>{f5d045c7-4dbd-463a-b94b-f00c2a31f58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TinyXML">
+      <UniqueIdentifier>{bbb1f76d-ea27-4f73-8fae-b9437c592406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TinyXML">
+      <UniqueIdentifier>{e2532aa0-4fd4-4e57-ae08-5b9bf9bf030b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DbUploadModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DbUploadModuleDlg.h">
+      <Filter>头文件\UI_Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>头文件\UI_Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="tbDbUpdateLog.h">
+      <Filter>头文件\tbFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProvider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CdbUpdateLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>头文件\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>头文件\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlTransform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tbProcessPara.h">
+      <Filter>头文件\tbFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessPara.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DbUploadModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DbUploadModuleDlg.cpp">
+      <Filter>源文件\UI_Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>源文件\UI_Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="tbDbUpdateLog.cpp">
+      <Filter>源文件\tbFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProvider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CdbUpdateLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlTransform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tbProcessPara.cpp">
+      <Filter>源文件\tbFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessPara.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DbUploadModule.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DbUploadModule.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DbUploadModule.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
