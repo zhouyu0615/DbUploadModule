@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312" standalone="no" ?>
-<!--File created at 2016-04-18 14:46:14-->
+<!--File created at 2016-04-19 09:10:38-->
 <root>
-    <OperEventNode>
+    <OperNode>Insert
         <InfoNode>
             <tbName>tbProcessPara</tbName>
             <Id>1126</Id>
@@ -24,5 +24,12 @@
             <WriteAddrIndex>3</WriteAddrIndex>
             <Unit></Unit>
         </InfoNode>
-    </OperEventNode>
+    </OperNode>
+    <OperNode>Delete
+        <InfoNode>
+            <tbName>tbProcessPara</tbName>
+            <Id>1007</Id>
+            <DataTime>2016-04-19 09:10:23</DataTime>
+        </InfoNode>
+    </OperNode>
 </root>

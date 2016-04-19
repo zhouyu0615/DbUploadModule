@@ -37,18 +37,17 @@ int CXmlTransform::CreateXmlUpdateFile()
 	{
 		if (m_pData->m_vDbUpdateLog[i].m_strUdTbName=="tbProcessPara")
 		{    
-			TiXmlElement * OperEventNode = new TiXmlElement("OperEventNode");
+			TiXmlElement * OperEventNode = CreateInfoNode("OperNode", m_pData->m_vDbUpdateLog[i].m_strUdOperType);
 			int id = m_pData->m_vDbUpdateLog[i].m_lUdId;
 			TiXmlElement* infoNode=NULL;
 			if (m_pData->m_vDbUpdateLog[i].m_strUdOperType == "Insert"
 				|| m_pData->m_vDbUpdateLog[i].m_strUdOperType == "Update")
 			{								
-				 infoNode = m_pData->m_MpProcessPara[id].GetParaInfoXmlNode();
-				
+				 infoNode = m_pData->m_MpProcessPara[id].GetParaInfoXmlNode();			
 			}
 			else if (m_pData->m_vDbUpdateLog[i].m_strUdOperType=="Delete")
 			{
-				
+				infoNode = m_pData->m_vDbUpdateLog[i].GetDeleteXmlInfo();
 			}
 			OperEventNode->LinkEndChild(infoNode);
 

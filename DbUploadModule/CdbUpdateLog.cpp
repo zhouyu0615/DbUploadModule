@@ -24,3 +24,20 @@ CdbUpdateLog::CdbUpdateLog(const CtbDbUpdateLog& tbLog)
 	this->m_strUdOperType = tbLog.m_ud_OperType;
 	this->m_UdDatetime = tbLog.m_ud_Datetime;
 }
+
+
+
+TiXmlElement* CdbUpdateLog::GetDeleteXmlInfo()
+{
+	TiXmlElement* InfoNode = new TiXmlElement("InfoNode");
+
+	InfoNode->LinkEndChild(CreateInfoNode("tbName", this->m_strUdTbName));
+
+	InfoNode->LinkEndChild(CreateInfoNode("Id", this->m_lUdId));
+
+	InfoNode->LinkEndChild(CreateInfoNode("DataTime", m_UdDatetime.Format(_T("%Y-%m-%d %H:%M:%S"))));
+
+	return InfoNode;
+}
+
+

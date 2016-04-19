@@ -114,6 +114,8 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="tbDbUpdateLog.h" />
     <ClInclude Include="tbProcessPara.h" />
+    <ClInclude Include="TCPClient.h" />
+    <ClInclude Include="Thread.h" />
     <ClInclude Include="TinyXML\tinystr.h" />
     <ClInclude Include="TinyXML\tinyxml.h" />
     <ClInclude Include="Util.h" />
@@ -132,6 +134,8 @@
     </ClCompile>
     <ClCompile Include="tbDbUpdateLog.cpp" />
     <ClCompile Include="tbProcessPara.cpp" />
+    <ClCompile Include="TCPClient.cpp" />
+    <ClCompile Include="Thread.cpp" />
     <ClCompile Include="TinyXML\tinystr.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>

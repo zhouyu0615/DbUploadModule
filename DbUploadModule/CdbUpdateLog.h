@@ -1,11 +1,14 @@
 #pragma once
 #include "tbDbUpdateLog.h"
 
+#include "TinyXML/tinyxml.h"
+#include "Util.h"
+
 class CdbUpdateLog
 {
 	
 public:
-	CdbUpdateLog();
+	CdbUpdateLog(); 
 	~CdbUpdateLog();
 
 	CdbUpdateLog(const CtbDbUpdateLog& tbLog);
@@ -19,6 +22,9 @@ public:
 
 
 public:
+
+	TiXmlElement* GetDeleteXmlInfo();
+
 
 };
 
